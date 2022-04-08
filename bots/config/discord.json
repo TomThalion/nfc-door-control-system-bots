@@ -1,0 +1,6 @@
+{
+  "BOT_TOKEN" : "https://discord.com/api/webhooks/946081697466818600/6Ihty8uhE0StKQBLSxdldWHEDF149JRCHjK7JzcvZq08ctP8bjEF69geni9oCFaKAUOG",
+  "WEB_APP_LINK" : "https://10.12.181.98:4201/",
+  "DOOR_TEXT" : "@everyone Die Tür wurde geöffnet",
+  "BELL_TEXT" : "@everyone Hi, es klingelt gerade an der Tür! Hier ist ein link zur Klingelwebapp:\n"
+}

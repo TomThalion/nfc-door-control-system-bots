@@ -1,0 +1,54 @@
+{
+  "name": "mattermostbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "nodemon",
+    "start": "ts-node-dev src/app.ts"
+  },
+  "keywords": [],
+  "author": "Tom Gaßmann",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hookcord": "^2.0.2",
+    "node": "^17.4.0",
+    "node-mattermost": "0.0.1",
+    "node-telegram-bot-api": "0.56.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.10",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/tests/*/*.test.ts"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  }
+}

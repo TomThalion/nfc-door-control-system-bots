@@ -1,0 +1,7 @@
+{
+  "CHANNEL" : "gruppe-1",
+  "BOT_TOKEN" : "https://mattermost.teco.edu/hooks/96r4w4sjtbfniycqucx7s8acxa",
+  "WEB_APP_LINK" : "https://10.12.180.114:4201/",
+  "DOOR_TEXT" : "Die Tür wurde geöffnet",
+  "BELL_TEXT" : "Hi, es klingelt gerade an der Tür! Hier ist ein link zur Klingelwebapp:\n"
+}
